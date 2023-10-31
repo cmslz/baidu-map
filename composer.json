@@ -1,0 +1,27 @@
+{
+    "name": "cmslz/baidu-map",
+    "description": "百度地图",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "百度地图"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cmslz\\BaiduMap\\": "src/"
+        },
+        "files": [
+            "src/function.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "xiaobai"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}

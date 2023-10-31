@@ -5,5 +5,5 @@
 # 示例
 
 ```PHP
-$application = new \Cmslz\BaiduMap\Application('e10418beefc79ac3f34ac3eaf724f61c');
+$application = new \Cmslz\BaiduMap\Application('e10418beefc79ac3f34axxx');
 ```

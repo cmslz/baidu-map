@@ -147,7 +147,7 @@ class PlaceApi
      */
     public function geocoding(string $address, array $options = []): Response
     {
-        return $this->request->get('/place/v2/suggestion', array_merge(
+        return $this->request->get('/geocoding/v3', array_merge(
             compact('address'),
             $options
         ));
